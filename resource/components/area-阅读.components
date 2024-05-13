@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "id": "ddb6f53d-15f8-47a1-b8fb-19f316bc0677",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T08:39:58.373Z",
+      "updateAt": "2024-05-13T08:39:58.373Z",
+      "components": [
+        {
+          "componentId": "4c0d3c96-26dd-483b-8f4e-260f543f0acc"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "4c0d3c96-26dd-483b-8f4e-260f543f0acc",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "书库",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-13T08:42:27.698Z",
+      "updateAt": "2024-05-13T08:42:27.698Z",
+      "viewType": "gallary",
+      "properties": [
+        {
+          "id": "ce0743dd-e66e-4cbe-9159-d68bea0215df",
+          "name": "tags",
+          "type": "multiSelect",
+          "isShow": false,
+          "options": {}
+        },
+        {
+          "id": "55c4476f-9583-41a9-971e-2f563454521e",
+          "name": "area",
+          "type": "multiSelect",
+          "isShow": false,
+          "options": {}
+        },
+        {
+          "id": "8ed055a6-ad2b-4191-991f-d19409a13096",
+          "name": "createTime",
+          "type": "text",
+          "isShow": false,
+          "options": {}
+        },
+        {
+          "id": "d7bd221d-e053-4387-9ac6-3203e66041e0",
+          "name": "cover",
+          "type": "text",
+          "isShow": false,
+          "options": {}
+        },
+        {
+          "id": "4f7f562f-9179-4789-9b6c-e4cb8345157e",
+          "name": "author",
+          "type": "multiSelect",
+          "isShow": true,
+          "options": {}
+        },
+        {
+          "id": "874c5bf6-8479-41dd-87c1-b781fc0a791c",
+          "name": "isbn",
+          "type": "text",
+          "isShow": false,
+          "options": {}
+        },
+        {
+          "id": "33aeda18-a992-463b-95ff-f3c08d1a2973",
+          "name": "readingStatus",
+          "type": "select",
+          "isShow": true,
+          "options": {}
+        },
+        {
+          "id": "f4444479-b880-4eb5-b1a6-06959e8db6f3",
+          "name": "compltedTime",
+          "type": "text",
+          "isShow": false,
+          "options": {}
+        },
+        {
+          "id": "5b12cf03-bca5-4c39-b46d-c53cdbcb3bb7",
+          "name": "category",
+          "type": "select",
+          "isShow": true,
+          "options": {}
+        },
+        {
+          "id": "aefa00a4-699d-4627-8f45-fe5f97aa9021",
+          "name": "progress",
+          "type": "number",
+          "isShow": true,
+          "options": {
+            "prefix": "",
+            "suffix": "",
+            "color": "components--color-none",
+            "uiType": "progressBar",
+            "total": 100
+          }
+        }
+      ],
+      "templates": [
+        {
+          "id": "48e64218-b392-48ee-bde9-ed33606e10d6",
+          "path": "resource/template/book.md",
+          "name": "book.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageProperty",
+          "value": "cover",
+          "fit": "contains",
+          "layout": "components--page-card-cover-portrait"
+        }
+      },
+      "filter": {
+        "id": "bc9afa86-0c6d-4468-8401-583c2f7074d6",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "9712bfff-4844-4343-8fe9-4c2621313399",
+            "type": "filter",
+            "operator": "contains",
+            "property": "area",
+            "value": "[[阅读]]",
+            "conditions": []
+          },
+          {
+            "id": "e19d9e45-b77a-487e-b62c-24a6bd3d97be",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "resource/template",
+            "conditions": []
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "space"
+      },
+      "loadLimitPerPage": 50,
+      "defaultTemplate": "48e64218-b392-48ee-bde9-ed33606e10d6"
+    }
+  ],
+  "rootComponentId": "ddb6f53d-15f8-47a1-b8fb-19f316bc0677"
+}

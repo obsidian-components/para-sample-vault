@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "id": "d74392b3-4118-4c33-9f75-1dd958678f62",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:28:49.882Z",
+      "updateAt": "2024-05-13T07:28:49.882Z",
+      "components": [
+        {
+          "componentId": "e76df3b6-de40-410d-ac41-14855dd22297"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "e76df3b6-de40-410d-ac41-14855dd22297",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "日记画廊",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:29:05.317Z",
+      "updateAt": "2024-05-13T07:29:05.317Z",
+      "viewType": "gallary",
+      "properties": [],
+      "templates": [
+        {
+          "id": "8f1f5965-4c89-40cb-bf4a-876dbbea82c7",
+          "path": "resource/template/journal.md",
+          "name": "journal.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageContent",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape"
+        }
+      },
+      "filter": {
+        "id": "bc9afa86-0c6d-4468-8401-583c2f7074d6",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "fc1a9378-b61f-47ba-a382-e7e7acbf4c8f",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "journal",
+            "conditions": []
+          },
+          {
+            "id": "8ded9124-de54-4daf-bc2c-7a22aff7a7cd",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "resource/template",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "9c48cfc7-910e-4258-872e-be506f9d9944",
+            "property": "${file.basename}",
+            "direction": "desc"
+          }
+        ]
+      },
+      "defaultTemplate": "8f1f5965-4c89-40cb-bf4a-876dbbea82c7"
+    }
+  ],
+  "rootComponentId": "d74392b3-4118-4c33-9f75-1dd958678f62"
+}
