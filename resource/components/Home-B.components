@@ -110,7 +110,7 @@
           "options": {}
         }
       ],
-      "folder": "components/daily-check"
+      "folder": "resource/dailyCheck"
     }
   ],
   "rootComponentId": "846b172e-8ef4-476c-9001-be2db988368b"

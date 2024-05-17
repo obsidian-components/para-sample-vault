@@ -1,7 +1,7 @@
 {
 	"id": "components",
 	"name": "Components",
-	"version": "0.0.20240512",
+	"version": "0.0.20240517",
 	"minAppVersion": "0.14.0",
 	"description": "create component for your obsidian",
 	"author": "vran",

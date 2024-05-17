@@ -2,6 +2,5 @@
 tags:
   - journal
 area: "[[日记]]"
-createTime:
-  "{ date: YYYY-MM-DDTHH:mm:ss }":
+createTime: {{date: YYYY-MM-DDTHH:mm:ss}}
 ---

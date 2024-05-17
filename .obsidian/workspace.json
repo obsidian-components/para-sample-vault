@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60d5e4572e388366",
+        "id": "c0e97a135010d082",
         "type": "tabs",
         "children": [
           {
-            "id": "5ca45ea0dbedc9ce",
+            "id": "8000d2bc3726c29f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,24 +31,15 @@
       {
         "id": "846718564602f7ee",
         "type": "tabs",
+        "dimension": 29.71976401179941,
         "children": [
-          {
-            "id": "fca371bc7716cb1a",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "52f2d3242156b701",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "date",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,6 +54,38 @@
             "state": {
               "type": "bookmarks",
               "state": {}
+            }
+          },
+          {
+            "id": "cca046ffc5187126",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resource/components/导航栏.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "9ba3dd0e19ee9f08",
+        "type": "tabs",
+        "dimension": 70.28023598820059,
+        "children": [
+          {
+            "id": "fca371bc7716cb1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           }
         ]
@@ -138,61 +161,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5ca45ea0dbedc9ce",
+  "active": "8000d2bc3726c29f",
   "lastOpenFiles": [
-    "README.md",
-    "space/阅读.md",
-    "space/重庆一周游.md",
-    "space/赵五.md",
-    "space/等到有空了再做处理，比如剪藏的稍后阅读内容.md",
-    "space/研究一下 Obsidian 的模板语法.md",
-    "space/知识管理.md",
-    "space/王二.md",
-    "space/构建 V3 工作流.md",
-    "space/李四.md",
-    "space/暂时不用处理的文档.md",
-    "space/日记.md",
-    "space/旅游.md",
-    "space/张三.md",
+    "resource/components/导航栏.md",
+    "Home.md",
     "space/工作.md",
-    "space/孙悟空.md",
+    "space/旅游.md",
+    "space/日记.md",
+    "space/知识管理.md",
+    "space/阅读.md",
+    "resource/images/game.png",
+    "resource/images/typewriter.png",
+    "resource/images/thoughts.png",
+    "resource/images/service.png",
+    "resource/images/books.png",
+    "space/构建 V3 工作流.md",
+    "resource/components/工作统计.components",
     "space/奥特曼.md",
-    "space/卡片笔记写作法.md",
-    "space/什么是资源？.md",
-    "space/人月神话.md",
-    "space/上海迪斯尼.md",
-    "space/dataview.md",
-    "space/Templater.md",
-    "space/Components.md",
-    "space/Components 表格组件设计.md",
-    "space/Components 表格底部支持统计行.md",
-    "space",
-    "resource/components/计时组件.components",
-    "resource/components/inbox.components",
+    "space/赵五.md",
+    "space/孙悟空.md",
+    "space/张三.md",
+    "space/李四.md",
+    "space/王二.md",
+    "resource/components/日记统计组件.components",
+    "space/2024-02-01.md",
+    "space/2024-01-01.md",
+    "space/2024-05-13.md",
     "resource/components/area.components",
-    "resource/components/area-阅读.components",
-    "resource/components/area-知识管理.components",
+    "resource/images/books/卡片笔记写作法.jpg",
+    "space/世界简史.md",
+    "space/卡片笔记写作法.md",
+    "resource/images/books",
+    "resource/images/books/世界简史.png",
+    "space/人月神话.md",
+    "README.md",
     "resource/components/area-日记.components",
-    "resource/components/area-旅游.components",
+    "resource/components/area-知识管理.components",
     "resource/components/area-工作.components",
-    "resource/components/Home-B.components",
+    "resource/components/计时组件.components",
+    "Untitled.md",
+    "resource/components/nav.components",
+    "space/2024-05-11.md",
+    "resource/template/resource.md",
+    "resource/template/project.md",
+    "components/daily-check",
+    "resource/images/books/人月神话.jpg",
     "resource/images/熊猫玩.png",
-    "resource/images/熊猫喝饮料.png",
-    "resource/images/熊猫吃饭.png",
-    "resource/images/熊猫吃蔬菜.png",
-    "resource/images/熊猫.png",
-    "resource/images/呆萌熊猫.png",
-    "resource/images/卡片笔记写作法.jpg",
-    "resource/images/人月神话.jpg",
-    "resource/attachments/Pasted image 20240513172142.png",
-    "resource/attachments/Pasted image 20240513163145.png"
+    "resource/images/熊猫喝饮料.png"
   ]
 }

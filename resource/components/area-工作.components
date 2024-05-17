@@ -106,6 +106,12 @@
           "name": "终面",
           "items": [],
           "collapsed": false
+        },
+        {
+          "id": "4b532cd0-6d23-46df-b190-867cf15d92b0",
+          "name": "入职中",
+          "items": [],
+          "collapsed": false
         }
       ],
       "viewOptions": {
@@ -134,7 +140,7 @@
             "type": "filter",
             "operator": "contains",
             "property": "tags",
-            "value": "工作",
+            "value": "project",
             "conditions": []
           },
           {
@@ -143,6 +149,14 @@
             "operator": "not_contains",
             "property": "${file.path}",
             "value": "resource/template",
+            "conditions": []
+          },
+          {
+            "id": "960e75c6-f7c0-491d-b2dd-6cf930c47b9c",
+            "type": "filter",
+            "operator": "contains",
+            "property": "area",
+            "value": "[[工作]]",
             "conditions": []
           }
         ]
@@ -270,7 +284,7 @@
           "id": "9bf80cdf-a8e0-4fad-b284-7adab98452bd",
           "name": "TODO",
           "items": [],
-          "collapsed": true
+          "collapsed": false
         },
         {
           "id": "92142ff0-e5a0-44fb-907f-69ffb087dfdc",
@@ -282,7 +296,7 @@
           "id": "4e5fb76f-1486-4a93-8be8-a9f9244825ba",
           "name": "CANCELED",
           "items": [],
-          "collapsed": true
+          "collapsed": false
         }
       ],
       "viewOptions": {
@@ -295,7 +309,8 @@
           "fit": "contains",
           "layout": "components--page-card-cover-landscape"
         },
-        "headColumnWidth": "266"
+        "headColumnWidth": "266",
+        "headColumnStatisticType": "count"
       },
       "filter": {
         "id": "bc9afa86-0c6d-4468-8401-583c2f7074d6",

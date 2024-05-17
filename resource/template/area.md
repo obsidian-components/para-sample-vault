@@ -1,6 +1,5 @@
 ---
 tags:
   - area
-createTime:
-  "{ date: YYYY-MM-DDTHH:mm:ss }":
+createTime: {{date: YYYY-MM-DDTHH:mm:ss}}
 ---
