@@ -118,10 +118,12 @@
         "openPageIn": "tab",
         "itemSize": "components--page-card-medium",
         "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
         "cover": {
           "type": "pageFirstImage",
           "value": "",
-          "fit": "contains",
+          "fit": "cover",
           "layout": "components--page-card-cover-landscape"
         }
       },
@@ -160,7 +162,8 @@
             "conditions": []
           }
         ]
-      }
+      },
+      "newPageNameFormat": ""
     },
     {
       "id": "3e9ea363-5efc-4325-a75d-9fbdf066ad0d",

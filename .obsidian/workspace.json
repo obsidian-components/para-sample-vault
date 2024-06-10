@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c0e97a135010d082",
+        "id": "0eec35b6c320d72c",
         "type": "tabs",
         "children": [
           {
-            "id": "8000d2bc3726c29f",
+            "id": "d360e63684f6252c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -31,7 +27,7 @@
       {
         "id": "846718564602f7ee",
         "type": "tabs",
-        "dimension": 29.71976401179941,
+        "dimension": 29.719764011799406,
         "children": [
           {
             "id": "52f2d3242156b701",
@@ -108,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +141,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -170,15 +162,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8000d2bc3726c29f",
+  "active": "d360e63684f6252c",
   "lastOpenFiles": [
+    "resource/components/area-知识管理.components",
     "resource/components/导航栏.md",
+    "resource/components/area-日记.components",
+    "resource/components/area-工作.components",
+    "resource/components/计时组件.components",
+    "resource/components/area.components",
     "Home.md",
     "space/工作.md",
-    "space/旅游.md",
     "space/日记.md",
+    "space/2024-01-01.md",
     "space/知识管理.md",
     "space/阅读.md",
+    "space/旅游.md",
     "resource/images/game.png",
     "resource/images/typewriter.png",
     "resource/images/thoughts.png",
@@ -194,9 +192,7 @@
     "space/王二.md",
     "resource/components/日记统计组件.components",
     "space/2024-02-01.md",
-    "space/2024-01-01.md",
     "space/2024-05-13.md",
-    "resource/components/area.components",
     "resource/images/books/卡片笔记写作法.jpg",
     "space/世界简史.md",
     "space/卡片笔记写作法.md",
@@ -204,10 +200,6 @@
     "resource/images/books/世界简史.png",
     "space/人月神话.md",
     "README.md",
-    "resource/components/area-日记.components",
-    "resource/components/area-知识管理.components",
-    "resource/components/area-工作.components",
-    "resource/components/计时组件.components",
     "Untitled.md",
     "resource/components/nav.components",
     "space/2024-05-11.md",
