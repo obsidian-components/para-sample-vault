@@ -80,7 +80,7 @@
         ]
       },
       "chartColorSet": [],
-      "chartLabelPosition": "top",
+      "chartLabelPosition": "hidden",
       "title": "领域投入度"
     },
     {
@@ -110,7 +110,8 @@
           "options": {}
         }
       ],
-      "folder": "resource/dailyCheck"
+      "folder": "resource/dailyCheck",
+      "dataRecordType": "journalProperty"
     }
   ],
   "rootComponentId": "846b172e-8ef4-476c-9001-be2db988368b"

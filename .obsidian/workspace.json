@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0eec35b6c320d72c",
+        "id": "3aa4eed688fd89d4",
         "type": "tabs",
         "children": [
           {
-            "id": "d360e63684f6252c",
+            "id": "1c00d4e27559e355",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -104,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           }
         ]
@@ -153,36 +161,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "d360e63684f6252c",
+  "active": "1c00d4e27559e355",
   "lastOpenFiles": [
+    "space/工作.md",
+    "Home.md",
+    "space/旅游.md",
+    "space/日记.md",
+    "space/知识管理.md",
+    "resource/components/阅读统计组件.components",
+    "space/阅读.md",
+    "space/人月神话.md",
+    "space/Components.md",
+    "space/dataview.md",
+    "space/journal/2024-06-25.md",
+    "space/journal/2024-06-01.md",
+    "space/journal",
+    "space/构建 V3 工作流.md",
+    "README.md",
+    "space/Components 看板分组支持拖拽切换顺序.md",
     "resource/components/area-知识管理.components",
     "resource/components/导航栏.md",
     "resource/components/area-日记.components",
     "resource/components/area-工作.components",
     "resource/components/计时组件.components",
     "resource/components/area.components",
-    "Home.md",
-    "space/工作.md",
-    "space/日记.md",
     "space/2024-01-01.md",
-    "space/知识管理.md",
-    "space/阅读.md",
-    "space/旅游.md",
     "resource/images/game.png",
     "resource/images/typewriter.png",
     "resource/images/thoughts.png",
     "resource/images/service.png",
     "resource/images/books.png",
-    "space/构建 V3 工作流.md",
     "resource/components/工作统计.components",
     "space/奥特曼.md",
     "space/赵五.md",
@@ -195,17 +212,8 @@
     "space/2024-05-13.md",
     "resource/images/books/卡片笔记写作法.jpg",
     "space/世界简史.md",
-    "space/卡片笔记写作法.md",
     "resource/images/books",
     "resource/images/books/世界简史.png",
-    "space/人月神话.md",
-    "README.md",
-    "Untitled.md",
-    "resource/components/nav.components",
-    "space/2024-05-11.md",
-    "resource/template/resource.md",
-    "resource/template/project.md",
-    "components/daily-check",
     "resource/images/books/人月神话.jpg",
     "resource/images/熊猫玩.png",
     "resource/images/熊猫喝饮料.png"

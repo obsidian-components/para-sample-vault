@@ -88,7 +88,7 @@
         {
           "id": "5b12cf03-bca5-4c39-b46d-c53cdbcb3bb7",
           "name": "category",
-          "type": "select",
+          "type": "multiSelect",
           "isShow": true,
           "options": {}
         },
@@ -140,7 +140,7 @@
             "conditions": []
           },
           {
-            "id": "e19d9e45-b77a-487e-b62c-24a6bd3d97be",
+            "id": "95fbdd51-d90f-45f9-a1ba-f97892267ed8",
             "type": "filter",
             "operator": "not_contains",
             "property": "${file.path}",
@@ -153,7 +153,8 @@
         "location": "space"
       },
       "loadLimitPerPage": 50,
-      "defaultTemplate": "48e64218-b392-48ee-bde9-ed33606e10d6"
+      "defaultTemplate": "48e64218-b392-48ee-bde9-ed33606e10d6",
+      "newPageNameFormat": ""
     }
   ],
   "rootComponentId": "ddb6f53d-15f8-47a1-b8fb-19f316bc0677"
