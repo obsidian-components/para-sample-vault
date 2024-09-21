@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3aa4eed688fd89d4",
+        "id": "60ea6eeaa7081869",
         "type": "tabs",
         "children": [
           {
-            "id": "1c00d4e27559e355",
+            "id": "527192e040f7683d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,7 +16,9 @@
                 "file": "Home.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -45,7 +47,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -53,7 +57,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           },
           {
@@ -67,7 +73,9 @@
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "导航栏"
             }
           }
         ],
@@ -85,7 +93,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ]
@@ -116,7 +126,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Home 的反向链接列表"
             }
           },
           {
@@ -128,7 +140,9 @@
                 "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Home 的出链列表"
             }
           },
           {
@@ -139,7 +153,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -149,7 +165,9 @@
               "type": "outline",
               "state": {
                 "file": "Home.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Home 的大纲"
             }
           }
         ]
@@ -170,10 +188,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1c00d4e27559e355",
+  "active": "527192e040f7683d",
   "lastOpenFiles": [
-    "space/工作.md",
+    "resource/components/area-日记.components",
+    "resource/components/导航栏.md",
+    "space/journal/2024-06-01.md",
     "Home.md",
+    "space/journal/2024-06-25.md",
+    "space/工作.md",
     "space/旅游.md",
     "space/日记.md",
     "space/知识管理.md",
@@ -182,15 +204,11 @@
     "space/人月神话.md",
     "space/Components.md",
     "space/dataview.md",
-    "space/journal/2024-06-25.md",
-    "space/journal/2024-06-01.md",
     "space/journal",
     "space/构建 V3 工作流.md",
     "README.md",
     "space/Components 看板分组支持拖拽切换顺序.md",
     "resource/components/area-知识管理.components",
-    "resource/components/导航栏.md",
-    "resource/components/area-日记.components",
     "resource/components/area-工作.components",
     "resource/components/计时组件.components",
     "resource/components/area.components",

@@ -40,13 +40,18 @@
       "groups": [],
       "viewOptions": {
         "openPageIn": "tab",
+        "openPageAfterCreate": false,
         "itemSize": "components--page-card-medium",
         "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
+        "items": [],
         "cover": {
           "type": "pageContent",
           "value": "",
           "fit": "contains",
-          "layout": "components--page-card-cover-landscape"
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true
         }
       },
       "filter": {
@@ -81,7 +86,8 @@
           }
         ]
       },
-      "defaultTemplate": "8f1f5965-4c89-40cb-bf4a-876dbbea82c7"
+      "defaultTemplate": "8f1f5965-4c89-40cb-bf4a-876dbbea82c7",
+      "newPageNameFormat": ""
     }
   ],
   "rootComponentId": "d74392b3-4118-4c33-9f75-1dd958678f62"
