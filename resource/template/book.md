@@ -1,13 +1,14 @@
 ---
 tags:
   - project
-area: '[[阅读]]'
-createTime: {{date: YYYY-MM-DDTHH:mm:ss}}
-cover:
-author:
-isbn:
+area: "[[阅读]]"
+createTime:
+  "{ date: YYYY-MM-DDTHH:mm:ss }": 
+cover: 
+author: 
+isbn: 
 readingStatus: Reading
-compltedTime:
-category:
+doneTime: 
+category: 
 progress: 0
 ---

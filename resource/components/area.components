@@ -263,7 +263,8 @@
           "fit": "contains",
           "layout": "components--page-card-cover-landscape"
         },
-        "headColumnWidth": "280"
+        "headColumnWidth": "280",
+        "heightType": "auto"
       },
       "filter": {
         "id": "bc9afa86-0c6d-4468-8401-583c2f7074d6",
