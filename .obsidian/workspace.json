@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b72c32dfc40f4c4d",
+        "id": "6d7fb8c1d0568ee8",
         "type": "tabs",
         "children": [
           {
-            "id": "0efdc6a473f7139c",
+            "id": "fca3be162dedb5a2",
             "type": "leaf",
             "state": {
               "type": "components-file-view",
@@ -31,7 +31,7 @@
       {
         "id": "846718564602f7ee",
         "type": "tabs",
-        "dimension": 34.54810495626822,
+        "dimension": 45.11742892459827,
         "children": [
           {
             "id": "a2f3896f5426f1f7",
@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resource/components/Area 导航.md",
+                "file": "resource/components/views/Area 导航.md",
                 "mode": "preview",
                 "source": false
               },
@@ -81,7 +81,7 @@
       {
         "id": "69eef7710309438f",
         "type": "tabs",
-        "dimension": 65.45189504373178,
+        "dimension": 54.88257107540173,
         "children": [
           {
             "id": "fca371bc7716cb1a",
@@ -89,7 +89,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -99,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 230.5
   },
   "right": {
     "id": "82009f7c92a8569a",
@@ -192,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 503.5,
+    "width": 214.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -207,52 +208,52 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "0efdc6a473f7139c",
+  "active": "fca3be162dedb5a2",
   "lastOpenFiles": [
     "README.md",
     "Home.components",
-    "resource/components/Area 导航.md",
-    "resource/components/area/工作.components",
-    "area/journal/day/2024-12-27.md",
-    "resource/components/area/日记.components",
-    "resource/components/area/旅游.components",
-    "resource/components/area/书库.components",
+    "resource/图片素材/50f1b13b70b37f02d5a7578acdc3e606.jpg",
+    "resource/图片素材/3254002f58d97566b5ceb0e54f99aadd.jpg",
+    "area/journal/day/2025-02-11.md",
+    "resource/图片素材/0c5b0198185be7c7874b56fdb90df141.jpg",
+    "resource/components/views/Area 导航.md",
     "resource/components/area/pkm.components",
+    "resource/components/area/书库.components",
+    "resource/components/area/旅游.components",
+    "resource/components/area/工作.components",
+    "resource/components/area/日记.components",
+    "resource/components/views/Home-B.components",
+    "resource/components/views/area.components",
+    "resource/components/views/工作统计.components",
+    "resource/components/views/计时组件.components",
+    "resource/components/views/导航栏.md",
+    "area/books/manual/世界简史.md",
+    "area/journal/day/2024-12-31.md",
+    "area/journal/day/2025-04-01.md",
+    "area/journal/month/2024-12.md",
+    "area/journal/day/2024-12-27.md",
     "area/知识管理.md",
     "area/阅读.md",
     "area/日记.md",
     "area/旅游.md",
     "area/工作.md",
-    "area/books/manual/世界简史.md",
-    "area/books/manual",
-    "area/books/douban",
-    "area/books/weread",
     "inbox/暂时不用处理的文档.md",
     "inbox/等到有空了再做处理，比如剪藏的稍后阅读内容.md",
     "inbox/241212 更新 PARA 模板.md",
     "area-阅读.components.md",
-    "resource/components/工作统计.components",
-    "resource/components/导航栏.md",
     "inbox/20241227.md",
     "resource/template/旅游/旅游项目模板.md",
     "area/traval/上海迪斯尼.md",
-    "area/journal/month/2024-12.md",
     "area/journal/month/2024-11.md",
     "area/journal/day/2024-11-01.md",
     "resource/template/日记/日记月复盘模板.md",
     "resource/template/日记/日记模板.md",
-    "area/journal/day/2023-12-01.md",
-    "area/work/发布计划/1.0.0.md",
-    "area/work/招聘/赵五.md",
     "resource/图片素材/clay-banks-QPivxTs7QVU-unsplash.jpg",
     "resource/图片素材/carolina-nichitin-5OY83OiKlNQ-unsplash.jpg",
     "resource/图片素材/braden-collum-75XHJzEIeUc-unsplash.jpg",
     "resource/图片素材/anders-jilden-cYrMQA7a3Wc-unsplash.jpg",
     "resource/images/game.png",
     "resource/images/typewriter.png",
-    "resource/images/thoughts.png",
-    "resource/images/service.png",
-    "resource/images/books.png",
-    "resource/images/books/卡片笔记写作法.jpg"
+    "resource/images/thoughts.png"
   ]
 }

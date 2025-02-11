@@ -419,7 +419,16 @@
       "newPageLocation": {
         "location": "area/work/研发"
       },
-      "newPageNameFormat": "{{date: YYMMDD}} "
+      "newPageNameFormat": "{{date: YYMMDD}} ",
+      "groupStates": {
+        "sort": "manual",
+        "orders": [
+          "__$uncategorizedGroup",
+          "TODO",
+          "DOING",
+          "DONE"
+        ]
+      }
     },
     {
       "id": "f87878bc-4452-40be-9dcd-6f914c60dfde",
